@@ -1,12 +1,33 @@
-# React + Vite
+# Redux + Tailwind CSS = Simple Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple todo app built with React, Redux, and Tailwind CSS. It allows you to add, remove, and toggle the completion status of todos.
 
-Currently, two official plugins are available:
+## Features
+- Add new todos
+- Remove todos
+- Toggle completion status of todos
+- Designed with Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Run
 
-## Expanding the ESLint configuration
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/muhammedistaken/simple-redux-todo-app.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd simple-redux-todo-app
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+5. Open your browser and go to `http://localhost:5173` to view the app.
+
+## Contact
+If you have any questions or suggestions, feel free to reach out on Instagram: [@muhammedd.tsx](https://www.instagram.com/muhammedd.tsx/).
