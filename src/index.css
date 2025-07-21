@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+*{
+    @apply outline-none;
+}
+
+html{
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
+body{
+    @apply bg-[#212529] text-[#f1f3f5] font-sans flex items-center justify-center
+}
+
+html, body{
+    @apply h-full w-full;
+}
+
+#root{
+    @apply h-5/6 w-4/5 bg-[#2e3337] rounded-lg shadow-lg flex flex-col overflow-hidden md:w-4/5 sm:w-3/4 lg:w-2/3 xl:w-1/2;
+}
+
+button, input[type=checkbox]{
+    @apply cursor-pointer select-none;
+}
+
+.custom-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #adb5bd transparent;
+    @apply scroll-m-3.5;
+}
